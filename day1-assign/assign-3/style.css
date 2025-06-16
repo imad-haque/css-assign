@@ -1,0 +1,60 @@
+@font-face {
+  font-family: 'Marlin Sans SQ';
+  src: url('MarlinSansBasic-Regular.otf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  background-color: #f8f9fa;
+  font-family: 'Marlin Sans SQ', sans-serif;
+}
+
+.card {
+  width: 360px;
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  margin: 80px auto;
+  padding: 0 20px 20px 20px;
+  box-sizing: border-box;
+}
+
+.card img {
+  width: 100%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  display: block;
+  margin-top: 20px;
+}
+
+.lock-text {
+  font-size: 12px;
+  color: #5f6368;
+  font-weight: bold;
+  margin-top: 15px;
+  letter-spacing: 1px;
+}
+
+h2 {
+  font-size: 18px;
+  margin: 10px 0;
+  color: #202124;
+  font-weight: 200;
+}
+
+.desc {
+  font-size: 14px;
+  color: #5f6368;
+  margin-bottom: 20px;
+}
+
+button {
+  background-color: white;
+  border: 1px solid #dadce0;
+  color: #1a73e8;
+  font-size: 14px;
+  padding: 10px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+}
